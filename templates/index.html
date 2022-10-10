@@ -11,13 +11,33 @@
  * Copyright (c) 2022 by Shawn C., All Rights Reserved. 
 -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Fecial Expression Recognition</title>
-    </head>
-    <body>
-        <center>
-            <img id="bg" width=800px height=640px src="{{ url_for('video_feed')}}">
-        </center>
-    </body>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/79479480?v=4" type="image/x-icon">
+  <title>Fecial Expression Recognition</title>
+</head>
+<style>
+  body {
+    background-image: url('https://img.freepik.com/free-vector/white-technology-design-wallpaper_23-2148413423.jpg?w=2000');
+    background-size: 100%;
+  }
+  img {
+    border-radius: 20px;
+    box-shadow: rgba(243, 20, 20, 0.2) 0px 2px 5px 0px;
+  }
+  .header {
+    text-align: center;
+    color: #c4cbcf;
+    text-shadow: 0 2px 2px #c0c4c3;
+  }
+</style>
+<body>
+  <center>
+    <div class="slide header">
+      <h1>Fecial Expression Recognition</h1>
+    </div>
+    <img id="bg" width=75% height=75% src="{{ url_for('video_feed')}}">
+  </center>
+</body>
 </html>
