@@ -22,22 +22,19 @@
     background-image: url('https://img.freepik.com/free-vector/white-technology-design-wallpaper_23-2148413423.jpg?w=2000');
     background-size: 100%;
   }
-  img {
-    border-radius: 20px;
-    box-shadow: rgba(243, 20, 20, 0.2) 0px 2px 5px 0px;
-  }
   .header {
     text-align: center;
     color: #c4cbcf;
     text-shadow: 0 2px 2px #c0c4c3;
   }
 </style>
-<body>
+<body onmousedown="return false;" ondragstart="return false;" ondrop="return false;">
   <center>
     <div class="slide header">
-      <h1>Fecial Expression Recognition</h1>
+      <h1>Demo: Fecial Expression Recognition</h1>
     </div>
-    <img id="bg" width=75% height=75% src="{{ url_for('video_feed')}}">
+    <img style="border-radius: 20px; box-shadow: rgba(243, 20, 20, 0.2) 0px 2px 5px 0px;" id="bg" width=75% height=75% src="{{ url_for('video_feed')}}">
   </center>
+</div><a href="https://github.com/XiaoSanchez/Facial_Expression_Recognition" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0; height: 20%; width: 10%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/GitHub_forkme_ribbon_right_green.svg/1024px-GitHub_forkme_ribbon_right_green.svg.png" alt="Fork me on GitHub"/></a>
 </body>
 </html>
