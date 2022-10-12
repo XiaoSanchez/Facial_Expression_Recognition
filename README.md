@@ -1,13 +1,11 @@
 
 # Facial Expression Recognition
 
-Develop a facial expression recognition model in Keras
+This project built and trained a convolutional neural network in Keras from scratch to recognize facial expressions. 
 
-Build and train a convolutional neural network (CNN)
+The data comprises of 48px by 48px grayscale data images. The objective is to classify each face based on the emotion shown in the facial expression into one of seven categories. 
 
-Deploy the trained model to a web interface with Flask
-
-Apply the model to real-time video streams and image data
+Use of OpenCV to automatically detect faces in images and draw bounding boxes around them. After training, saving, and exporting the CNN, it then served the trained model to a web interface with Flask, and performed real-time facial expression recognition on real-time video streams and image data.
 
 
 ## Demo
